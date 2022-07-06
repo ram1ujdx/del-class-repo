@@ -1,0 +1,7 @@
+
+GIT-
+------
+Steps : 
+ 1. Create a git repo
+ 2. Generate a token
+ 3. Clone the repository
