@@ -5,3 +5,11 @@ Steps :
  1. Create a git repo
  2. Generate a token
  3. Clone the repository
+	- git clone [repo-link]
+ 4. Add the files for committing
+	- git add -A
+ 5. Commit the changes
+	- git commit -m "comments"
+
+ 6. Git push
+
