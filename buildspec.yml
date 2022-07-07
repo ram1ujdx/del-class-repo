@@ -1,0 +1,24 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+    commands:
+      - echo installing..
+  pre_build:
+    commands:
+      - echo pre_build     
+  build:
+    commands:
+      - mvn clean package
+      - echo building..
+  post_build:
+    commands:
+      - echo post_build
+      
+artifacts:
+  files:
+    - target/spring-web-app-0.0.1-SNAPSHOT.war
+
+  discard-paths: yes 
