@@ -12,6 +12,7 @@ public class AppController {
 	@GetMapping("/hello")
 	public String sayHello(Model m) {
 		LocalTime time = LocalTime.now();
+		System.out.println("Hey .. Current Time : "+time);
 		m.addAttribute("time", time);
 		return "show.jsp";
 	}
